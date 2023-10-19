@@ -1,6 +1,6 @@
 <script lang="ts">
     import { debounce } from 'lodash';
-	import { goto } from '$app/navigation';
+    import { goto } from '$app/navigation';
 
     let searchTerm = "";
     let error = '';
